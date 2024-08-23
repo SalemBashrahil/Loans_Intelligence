@@ -135,4 +135,3 @@ def show():
         st.download_button(label="Download data as CSV", data=csv, file_name=f'{loan_for_time_series}_monthly_payments.csv', mime='text/csv')
     else:
         st.write("No loans available.")
-        
